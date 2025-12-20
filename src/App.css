@@ -1,37 +1,9 @@
-body {
-  font-family: "Sora", sans-serif;
-  background: #f8f9fb;
+@import "tailwindcss";
+@font-face {
+  font-family: sora;
+  src: url("/public/Sora-Regular.ttf");
 }
 
-.container {
-  width: 90%;
-  max-width: 800px;
-  margin: auto;
-}
-
-.card {
-  background: white;
-  padding: 16px;
-  margin: 12px 0;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.details {
-  background: white;
-  padding: 16px;
-  border-radius: 8px;
-}
-
-.apply-btn {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #1c1c3c;
-  color: white;
-  border: none;
-  border-radius: 8px;
-}
-
-.timeline-item {
-  margin: 6px 0;
+@theme {
+  --font-sora: "sora";
 }
